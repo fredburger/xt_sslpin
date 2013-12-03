@@ -20,7 +20,7 @@ xt_sslpin will only validate the public key (with minimal performance impact), a
 ## EXAMPLE
 
     iptables -I INPUT -m conntrack --ctstate ESTABLISHED -p tcp --sport 443 \
-        -m sslpin --debug --pubkey rsa:000000000000000000000000000000000000000000000000000000000000000000000000000 \
+        -m sslpin --debug --pubkey rsa:0000000000000000000000000000000000000000000000000000000000000000 \
         -j DROP
 
 ## INSTALLATION
