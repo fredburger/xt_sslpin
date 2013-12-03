@@ -1,4 +1,3 @@
-
 ## NAME
 
 xt_sslpin - netfilter/xtables module: match SSL/TLS certificate public key (pinning)
@@ -80,8 +79,8 @@ Verbose logging.
     kernel: [ 157.127367] xt_sslpin: sslparser: ServerHello handshake message (len = 85)
     kernel: [ 157.127370] xt_sslpin: sslparser: Certificate handshake message (len = 2193)
     kernel: [ 157.127373] xt_sslpin: sslparser: cn = "example.com"
-    kernel: [ 157.127378] xt_sslpin: sslparser: pubkey_alg = { name:"rsa", oid_asn1_hex:[2a864886f70d0101] }
-    kernel: [ 157.127387] xt_sslpin: sslparser: pubkey = [00000000000000000000000000000000 ...]
+    kernel: [ 157.127378] xt_sslpin: sslparser: pubkey_alg = { name:"rsa", oid_asn1_hex:[2a864886f...] }
+    kernel: [ 157.127387] xt_sslpin: sslparser: pubkey = [00000000000000000000000000000000...]
     kernel: [ 159.129145] xt_sslpin: sslparser: ServerDone handshake message (len = 0)
     kernel: [ 159.285698] xt_sslpin: sslparser: ChangeCipherSpec record
     kernel: [ 159.285714] xt_sslpin: rule not matched (cn = "example.com")
